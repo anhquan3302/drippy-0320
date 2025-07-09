@@ -26,16 +26,17 @@ export default function Content4() {
             <div className="flex flex-col md:flex-row items-start justify-between text-white py-16 pr-6 rounded-3xl w-full mt-20 gap-22">
                 <div className="relative max-w-[1200px] mx-auto">
                     {/* Grid ảnh nhỏ */}
-                    <div className="grid grid-cols-3 gap-4 md:pl-0 pl-4">
+                    <div className="grid grid-cols-3 gap-12 md:pl-0 pl-4">
                         {images.map((src, i) => (
                             <div
                                 key={i}
-                                className="w-36 h-36 p-5 bg-[#1e1e20] border border-gray-700 rounded-2xl flex items-center justify-center overflow-hidden"
+                                className="w-28 h-28 md:w-36 md:h-36 p-5 bg-[#1e1e20] border border-gray-700 rounded-2xl flex items-center justify-center overflow-hidden"
                             >
                                 <img
                                     src={src}
                                     alt={`img-${i}`}
-                                    className="object-cover w-20 h-20"
+                                    // Tương tự cho ảnh bên trong: w-16 h-16 trên mobile, md:w-20 md:h-20 trên md:
+                                    className="object-cover w-16 h-16 md:w-20 md:h-20"
                                 />
                             </div>
                         ))}
