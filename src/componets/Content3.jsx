@@ -5,11 +5,11 @@ export default function Content3() {
     return (
         <div className='flex flex-col items-center min-h-screen text-white mt-20 bg-[#1c1c1e] rounded-3xl mx-auto max-w-6xl px-4'>
 
-  <h1 className='text-5xl md:text-6xl font-semibold mb-4 text-center mt-20'>
+  <h1 className='text-5xl md:text-5xl font-semibold mb-4 text-center mt-20'>
     Generate <span className='italic'>precise patterns</span> in one-click.
   </h1>
 
-  <p className='text-xl md:text-2xl text-gray-400 max-w-3xl mx-auto text-center'>
+  <p className='text-xl md:text-xl text-gray-400 max-w-3xl mx-auto text-center'>
     Each 3D block comes with verified DXF pattern files – ready to send<br className="hidden md:block" />
     to your seamstress or manufacturer
   </p>

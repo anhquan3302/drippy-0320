@@ -12,7 +12,7 @@ import icon9 from '../assets/3.3.png'
 export default function Content2() {
     return (
         <div className='flex flex-col items-center min-h-screen text-white pt-24 '>
-            <h1 className='text-5xl md:text-5xl font-semibold mb-4 text-center'>Your creative engine right <span className='italic'>on te browser</span> </h1>
+            <h1 className='text-4xl md:text-3xl font-semibold mb-4 text-center'>Your creative engine right <span className='italic'>on te browser</span> </h1>
             <p className='text-xl md:text-xl px-12 text-gray-400 max-w-3xl mx-auto text-center'>Enjoy the full power of 3D technology - minus the complexity  </p>
             <div class='flex flex-col gap-10 mt-10'>
                 {/* Container chính cho toàn bộ hàng các khối */}

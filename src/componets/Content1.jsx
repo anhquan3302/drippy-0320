@@ -15,11 +15,11 @@ export default function Content1() {
                     {/* Container cho ảnh và text, giới hạn chiều rộng và căn giữa */}
                     <div className='max-w-7xl mx-auto px-6'> {/* Dùng max-w và mx-auto để căn giữa và px cho padding bên trong */}
 
-                        {/* Ảnh */}
-                        {/* Bỏ p-10 và bg-[#1c1c1e] ở đây vì ảnh không có nền và padding trong ảnh gốc */}
-                        <img src={p3} alt="Content Image" className='w-full rounded-2xl mb-8' />
+                        {/* Ảnh của khối 1 (p3) */}
+                        {/* Dựa vào image_d84b70.jpg hoặc các ảnh grid, p3 có vẻ là ảnh lưới sản phẩm */}
+                        <img src={p3} alt="3D Blocks & Assets Image" className='w-full rounded-2xl mb-8' />
 
-                        {/* Khối chứa tiêu đề và đoạn văn bản */}
+                        {/* Khối chứa tiêu đề và đoạn văn bản cho Khối 1 */}
                         <div className="text-left max-w-xl"> {/* max-w-xl để giới hạn chiều rộng của text và căn chỉnh theo bên trái của khối text */}
                             <p className='text-2xl font-bold pb-2'>3D blocks & assets</p>
                             {/* Tăng cỡ chữ lên 3xl và giảm pb xuống 2 để khoảng cách gần hơn */}
@@ -30,27 +30,31 @@ export default function Content1() {
                         </div>
                     </div>
                 </div>
+
                 <div className='flex flex-col items-center py-16 bg-black text-white'>
-                    {/* Thêm padding top/bottom cho khoảng cách tổng thể nếu cần */}
-                    {/* Container cho ảnh và text, giới hạn chiều rộng và căn giữa */}
+                    
                     <div className='max-w-7xl mx-auto px-6'> {/* Dùng max-w và mx-auto để căn giữa và px cho padding bên trong */}
-                        {/* Ảnh */}
-                        <img src={p4} alt="Content Image" className='w-full rounded-2xl mb-8' />
+                        {/* Ảnh của khối 2 (p4) */}
+                        {/* Dựa vào image_2bfdc4.png, p4 là ảnh về giao diện builder */}
+                        <img src={p4} alt="Browser-based 3D Builder Image" className='w-full rounded-2xl mb-8' />
                         <div className="text-left max-w-xl"> {/* max-w-xl để giới hạn chiều rộng của text và căn chỉnh theo bên trái của khối text */}
-                            <p className='text-2xl font-bold pb-2'>3D blocks & assets</p>
+                            <p className='text-2xl font-bold pb-2'>Browser-based 3D builder</p>
                             <p className='text-gray-400 text-lg leading-relaxed'>
-                                Skip the blank canvas — Start by mixing & matching garments blocks and materials
+                                A lightweight; easy-to-use platform built for speed, not steep learning curves.
                             </p>
                         </div>
                     </div>
                 </div>
+
                 <div className='flex flex-col items-center py-16 bg-black text-white'>
                     <div className='max-w-7xl mx-auto px-6'> {/* Dùng max-w và mx-auto để căn giữa và px cho padding bên trong */}
-                        <img src={p5} alt="Content Image" className='w-full rounded-2xl mb-8' />
+                        {/* Ảnh của khối 3 (p5) */}
+                        {/* Dựa vào image_2bfed8.jpg, p5 là ảnh về các mẫu pattern */}
+                        <img src={p5} alt="Export Verified Patterns Image" className='w-full rounded-2xl mb-8' />
                         <div className="text-left max-w-xl">
-                            <p className='text-2xl font-bold pb-2'>3D blocks & assets</p>
+                            <p className='text-2xl font-bold pb-2'>Export verified patterns</p>
                             <p className='text-gray-400 text-lg leading-relaxed'>
-                                Skip the blank canvas — Start by mixing & matching garments blocks and materials
+                                Seamlessly turn designs into sampling-ready sewing patterns in minutes.
                             </p>
                         </div>
                     </div>
