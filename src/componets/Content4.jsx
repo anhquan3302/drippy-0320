@@ -44,7 +44,7 @@ export default function Content4() {
                     <img
                         src={p17}
                         alt="Overlay"
-                        className="absolute top-[-60px] left-1/2 transform -translate-x-1/2 w-[500px] h-[900px] z-10"
+                        className="absolute top-[-60px] left-1/2 transform -translate-x-1/2 w-[500px] h-[750px] z-10"
                     />
                 </div>
 
